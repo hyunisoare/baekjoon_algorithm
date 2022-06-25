@@ -1,4 +1,4 @@
-package main;
+package main.whileStatement;
 
 import java.io.BufferedReader;
         import java.io.InputStreamReader;

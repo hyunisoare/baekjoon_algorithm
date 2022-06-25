@@ -1,4 +1,4 @@
-package main;
+package main.whileStatement;
 
 /*
 26, 2+6 = 8 => 68. 6+8 = 14.=> 84. 8+4 = 12. => 42. 4+2 = 6. => 26

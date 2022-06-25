@@ -1,4 +1,4 @@
-package main;
+package main.array;
 
 /*
 첫째 줄에는 테스트 케이스의 개수 C가 주어진다.
