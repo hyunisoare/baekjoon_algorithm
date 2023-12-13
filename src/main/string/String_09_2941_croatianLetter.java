@@ -22,7 +22,7 @@ public class String_09_2941_croatianLetter
                 }
             }
 
-            if (word.charAt(i) == 'd'){
+            else if (word.charAt(i) == 'd'){
                 if (word.length()-i > 2){
                     if (word.charAt(i+1) == 'z' && word.charAt(i+2) == '='){
                         cnt-=1;
@@ -36,7 +36,7 @@ public class String_09_2941_croatianLetter
                 }
             }
 
-            if (word.charAt(i) == 'l' || word.charAt(i) == 'n'){
+            else if (word.charAt(i) == 'l' || word.charAt(i) == 'n'){
 
                 if (word.length()-i>1) {
                     if (word.charAt(i + 1) == 'j') {
@@ -46,7 +46,7 @@ public class String_09_2941_croatianLetter
             }
 
 
-            if (word.charAt(i) == 's' || word.charAt(i) == 'z'){
+            else if (word.charAt(i) == 's' || word.charAt(i) == 'z'){
 
                 if (word.length()-i>1) {
                     if (word.charAt(i + 1) == '=') {
